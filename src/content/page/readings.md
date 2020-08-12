@@ -107,17 +107,47 @@ We round-off data structuring by learning two powerful tools in data structuring
 - PDA: chapters 8 and 10 and sections 5.3, 6.1-6.2
 - Wickham, Hadley. 2011. “[The Split-Apply-Combine Strategy for Data Analysis](http://www.jstatsoft.org/article/view/v040i01)”. Journal of Statistical Software 40(1).
 
-## Session 6: Scraping 1
+
+
+## Session 6: Scraping 1 - Introduction to web scaping
+
+We learn to create and collect datasets from the web. This means interacting with apis and webpages and extracting information from unstructured webpages.
+
+#### Required readings
+ 
+- Chapter 2: "Working with Web Data and APIs." in **[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/home)** edited by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane.(copies will be provided).
+
+- Shiab, Nael. 2015. "[On the Ethics of Web Scraping and Data Journalism](http://gijn.org/2015/08/12/on-the-ethics-of-web-scraping-and-data-journalism/)". Global Investigative Journalism Network.
+ 
+#### Inspirational reading
+
+Below are some interesting academic papers using data scraped from online sources that might provide inspiration for your exam project.
+ 
+- Stephens-Davidowitz, Seth. 2014. "[The cost of racial animus on a black candidate: Evidence using Google search data](http://www.sciencedirect.com/science/article/pii/S0047272714000929)." *Journal of Public Economics*, 118: 26-40.
+ 
+- Stephens-Davidowitz, Seth, Hal Varian, and Michael D. Smith. 2016. "[Super Returns to Super Bowl Ads?](http://people.ischool.berkeley.edu/~hal/Papers/2015/super.pdf)". R & R, *Journal of Political Economy*.
+ 
+- Stephens-Davidowitz, Seth, and Hal Varian. 2015 "[A Hands-on Guide to Google Data](https://www.aeaweb.org/aea/2016conference/program/retrieve.php?pdfid=772)." Google working paper.
+ 
+- Barberá, Pablo. 2015. "[Birds of the same feather tweet together: Bayesian ideal point estimation using Twitter data](http://pan.oxfordjournals.org/content/23/1/76.short)." *Political Analysis*, 23.1: 76-91.
+ 
+- Cavallo, A. (2018). ["Scraped data and sticky prices"](https://www.mitpressjournals.org/doi/abs/10.1162/REST_a_00652). *Review of Economics and Statistics*, 100(1).
+ 
+- Bond, Robert M., et al. 2012. "[A 61-million-person experiment in social influence and political mobilization](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3834737/)." *Nature*, 489.7415: 295-298.
+ 
+ 
+## Session 7: Scraping 2 - Parsing
+Here we develop our skills in parsing. This is a fundamental data science skill that goes beyond web scraping alone.
+
+#### Required readings
+- Chapter 2. Dan Jurafsky and James H. Martin: [Speech and Language Processing (3rd ed. draft)] (https://web.stanford.edu/~jurafsky/slp3/)
+- Introduction to pattern matching using regex: "[An introduction to regex in python](https://scotch.io/tutorials/an-introduction-to-regex-in-python). Blog.
+ 
+
+## Session 8:
 
 TBD
 
-## Session 7: Scraping 2
-
-TBD
-
-## Session 7: Scraping 3
-
-TBD
 
 ## Session 9: Ethics and Big Data Intro
 
@@ -125,18 +155,56 @@ TBD
 
 ## Session 10: Machine learning intro
 
-TBD
+We introduce basic machine learning concepts. We start with the simple machine learning models for classification problems.
+
+#### Required readings
+
+- PML: chapters 1,2 and the following section from chapter 3:
+  - Modeling class probabilities via logistic regression
+
 ## Session 11: Supervised learning 1
 
-TBD
+We explain the overfitting problem of modelling. We show one possible solution is regularization of standard linear models.
+
+#### Required readings
+
+- PML: chapter 3, the following sections:
+  - Tackling overfitting via regularization
+  - Partitioning a dataset into separate training and test sets
+- PML: chapter 4, the following sections:
+  - Bringing features onto the same scale
+  - Selecting meaningful features
+
+
+
 
 ## Session 12: Supervised learning 2
 
-TBD
+We introduce cross validation to gauge overfitting and review the linear model.
+
+#### Required readings
+
+- PML: chapter 6.
+- PML: chapter 10, the following sections:
+  - Introducing linear regression
+  - Implementing an ordinary least squares linear regression model
+  - Evaluating the performance of linear regression models
+  - Using regularized methods for regression
+  - Turning a linear regression model into a curve – polynomial regression
+
 
 ## Session 13: Supervised learning 3
 
-TBD
+We give an overview of non-linear machine learning models and outline how machine learning tools can be applied in social science.
+
+#### Required readings
+
+- Mullainathan, Sendhil, and Jann Spiess. 2017. ["Machine Learning: An Applied Econometric Approach."](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87) *Journal of Economic Perspectives*, 31 (2): 87-106.
+
+- Varian, Hal. 2012 [Big Data: New Tricks for Econometrics](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf)
+
+- Athey, Susan. 2018. [The Impact of Machine Learning on Economics](http://www.nber.org/chapters/c14009.pdf) *NBER*
+
 
 ## Session 14: Text data
 TBD
